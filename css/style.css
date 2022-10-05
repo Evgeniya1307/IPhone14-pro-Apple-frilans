@@ -1,0 +1,8 @@
+.header {
+    background-color: #0a0a0a;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;/*по часовой стрелке */
+}
