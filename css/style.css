@@ -1,13 +1,30 @@
+@import "./reset.css"; /*обнулила*/
+
 .header {
     background-color: #0a0a0a;
+    padding: 33px 0 32px;
 }
 .container {
     max-width: 1200px;
-    margin: 0 auto;/*auto автоматом вычитало*/
-    padding: 0 15px;/*по часовой стрелке 0-вверх.низ,15лево.право  */
+    margin: 0 auto; /*auto автоматом вычитало*/
+    padding: 0 15px; /*по часовой стрелке 0-вверх.низ,15лево.право  */
 }
 
-.nav{
+.nav {
     display: flex;
-    justify-content: space-between;/*распределила навигацию*/
+    justify-content: space-between; /*распределила навигацию*/
+    align-items: center; /*распределила по горизонтали центру*/
+}
+
+.menu {
+    display: flex;
+}
+
+/*что нового цвет заказать*/
+.menu-item {
+padding-right: 30px;
+}
+
+.menu-link{
+
 }
