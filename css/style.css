@@ -3,6 +3,11 @@
 }
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;/*по часовой стрелке */
+    margin: 0 auto;/*auto автоматом вычитало*/
+    padding: 0 15px;/*по часовой стрелке 0-вверх.низ,15лево.право  */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;/*распределила навигацию*/
 }
