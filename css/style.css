@@ -19,11 +19,15 @@ ul {
     color: #0a0a0a;
 }
 
+/* класс чтобы скрывать элементы */
+.none {
+    display: none !important;
+}
+
 .header {
     /*насследует и menulink и phone*/
     background-color: #0a0a0a;
     padding: 33px 0 32px;
-    color: #717171;
     font-size: 24px;
     line-height: 29px;
     color: #717171;
@@ -65,14 +69,14 @@ ul {
     padding: 70px 0 40px;
 }
 
-.title{
+.title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
     color: #490e84;
     margin-bottom: 40px;
-  }
+}
 
 .headline-btn {
     display: inline-block;
@@ -87,15 +91,35 @@ ul {
 }
 
 .new {
-padding: 90 0 150;
+    padding: 90 0 150;
 }
 
-.new-title {
-margin-bottom: 0 0 50px;/*снизу 50 сде-ла*/
+.new-title,
+.color-title {
+    margin-bottom: 0 0 50px; /*снизу 50 сде-ла*/
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #717171;
 }
 .new-info {
+    display: flex;
+    align-items: center;
 }
-.new-text {
+
+.new-info p {
+    max-width: 560px;
+    margin-bottom: 30px;
+}
+.new-text b {
+    max-width: 560px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    display: block;
 }
 .imges-news {
+    margin-left: 191px;
 }
