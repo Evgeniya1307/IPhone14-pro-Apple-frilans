@@ -110,8 +110,9 @@ ul {
 }
 
 .new-info p {
+    display: flex;
     max-width: 560px;
-    margin-bottom: 30px;
+    margin-bottom: 0 0 30px;/*обнулила стандартные */
 }
 .new-text b {
     max-width: 560px;
